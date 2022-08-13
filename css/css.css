@@ -336,3 +336,26 @@ cursor:default;
 .nowPage {
 	font-size: 1.5rem;
 }
+
+.d-flex {
+	display: flex;
+}
+
+.just-c{
+	justify-content: center;
+}
+
+.listP {
+	cursor: pointer;
+	color: blue;
+}
+
+.listP:hover {
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+
+.list_item {
+	cursor: pointer;
+	margin: 10px 0;
+}

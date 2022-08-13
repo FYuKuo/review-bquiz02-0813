@@ -304,23 +304,23 @@ cursor:default;
 	margin:auto;
 }
 
-.w-100,input .w100{
+.w-100{
 	width: 100%;
 }
 
-.w-90,input .w90{
+.w-90{
 	width: 90%;
 }
 
-.w-80,input .w80{
+.w-80{
 	width: 80%;
 }
 
-.w-70,input .w70{
+.w-70{
 	width: 70%;
 }
 
-.w-50,input .w50{
+.w-50{
 	width: 50%;
 }
 

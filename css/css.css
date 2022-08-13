@@ -326,5 +326,13 @@ cursor:default;
 
 .content {
 	width: 100%;
-	height: 500px;
+	height: 470px;
+}
+
+.page>a {
+	text-decoration: none;
+}
+
+.nowPage {
+	font-size: 1.5rem;
 }

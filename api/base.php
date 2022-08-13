@@ -158,6 +158,7 @@ $Admin = new DB('admin');
 $View = new DB('view');
 $News = new DB('news');
 $Que = new DB('que');
+$Log = new DB('log');
 
 if(!isset($_SESSION['view'])){
 

@@ -20,7 +20,13 @@
         foreach ($rows as $key => $row) {
         ?>
             <tr>
-                <td class="clo"><?= $row['title'] ?></td>
+                <td class="clo myhover">
+                    <?= $row['title'] ?>
+                    <div id="alerr">
+                        <h3><?= $row['title'] ?></h3>
+                        <pre id="ssaa"><?= $row['text'] ?></pre>
+                    </div>
+                </td>
                 <td><?= mb_substr($row['text'], 0, 20) ?>...</td>
                 <td>
                 <?php
@@ -73,4 +79,10 @@
             
         })
     }
+
+    $('.myhover').hover(function(){
+        
+        $(this).children().toggle();
+
+    })
 </script>

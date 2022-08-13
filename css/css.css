@@ -364,3 +364,7 @@ cursor:default;
 	color: blue;
 	cursor: pointer;
 }
+
+.a-center{
+	align-items: center;
+}
